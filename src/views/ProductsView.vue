@@ -3,10 +3,6 @@
     <body>
         
     <products/>
-    
-    <div>
-        <carouselBasicExample/>
-    </div>
 
     <div>
     <footer>
