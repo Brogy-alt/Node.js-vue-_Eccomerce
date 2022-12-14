@@ -6,8 +6,8 @@
 
 
     <div>
-    <form></form> 
-
+    
+    <Contact/>
 
     </div>
 
@@ -20,19 +20,18 @@
 </template>
 <script>
 
-import HelloWorld from '@/components/HelloWorld.vue';
+
 import NavBar from '@/components/NavBar.vue';
 import Footer from '@/components/Footer.vue';
+import Contact from '@/components/ContactForm.vue';
 
 export default {
-    name: 'Contact',
     components: {
-    HelloWorld,
-    NavBar,Footer
-    
+    NavBar,
+    Footer,
+    Contact
+    }
 }
-} 
-
 
 
 </script>

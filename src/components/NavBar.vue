@@ -1,10 +1,26 @@
 
  <template>
+   <div class="row">
     <div class="NavBar">
+      <div class="col-4">
     <a class="nav-link active" aria-current="page" href="/">Home</a>    
+   </div>
+   <div class="col-4">
+   
     <a class="nav-link" href="Products">Products</a>
+   </div>
+   
+   <div class="col-4">
+    <a class="nav-link" href="About">About</a>
+   </div>
+
+   <div class="col-4">
     <a class="nav-link" href="Contact">ContactForm</a>
+   </div>
+
+   
     </div>
+   </div>
  </template>
  <script>
  export default {
@@ -20,7 +36,7 @@
     background-color:rgb(0, 0, 0);
     width: 100%;
     display: flex;
-    gap: 37rem;
+    /* gap: 37rem; */
 
  }
  a {

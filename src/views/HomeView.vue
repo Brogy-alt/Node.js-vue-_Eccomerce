@@ -2,7 +2,7 @@
 <nav-bar></nav-bar>
   <div class="home">
     <img class="home-img" alt="Website logo" src="https://i.postimg.cc/P5D2vvHG/home-imge.jpg">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HelloWorld msg="Pick your Kick"/>
   </div>
 
   <div>
